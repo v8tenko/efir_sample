@@ -1,0 +1,35 @@
+body {
+    font-family: 'Lora', serif !important;
+    background-color: #f0f0f0;
+}
+
+.tab__elem {
+    color: black !important;
+}
+
+.title {
+    margin-top: 121px;
+    margin-bottom: 40px;
+}
+
+.tab__list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+.priceTitle {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+a,
+a:hover {
+    color: black;
+}

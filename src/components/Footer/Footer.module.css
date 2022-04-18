@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+.footer {
+    font-family: 'Lora', serif;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* border-top: 1px solid gray; */
+}
+
+.footer__name {
+    margin-top: 30px;
+    color: #434343;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.footer__title {
+    margin-top: 5px;
+    color: #434343;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+}
+
+.title__wrapper {
+    /* border-bottom: 1px solid #6d6d6d81;
+    width: 100%; */
+}
+
+.footer__info {
+    display: flex;
+    font-family: 'Marck Script', cursive;
+    font-size: 24px;
+    color: #666666;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.144);
+    width: 100%;
+    padding: 0 20px;
+}
+
+.number,
+.mail,
+.address {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+}
+
+.call,
+.send,
+.come {
+    flex-basis: 200px;
+    margin: 30px 10px;
+}
+
+.copyrate {
+    margin: 20px;
+    color: #666;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+@media (max-width: 920px) {
+
+    .call,
+    .send,
+    .come {
+        margin: 10px 10px;
+        text-align: center;
+    }
+
+    .footer__name {
+        margin-bottom: 0px;
+    }
+
+    .footer__title {
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+}

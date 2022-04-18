@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+.navbar {
+    background-color: rgba(8, 8, 8, 0.86);
+    font-family: 'Lora', serif;
+}
+
+.navbar__items {
+    z-index: 1;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.navbar__item {
+    margin: 0 10px;
+    color: white !important;
+    transition: 0.2s !important;
+}
+
+.navbar__item:hover {
+    color: rgb(194, 193, 193) !important;
+}
+
+.logo {
+    font-size: 30px !important;
+    margin-bottom: 6px;
+}
+
+a {
+    text-decoration: none !important;
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.wrapper {
+    height: 700px;
+    width: 100%;
+    background-image: url(../../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    font-family: 'Lora', serif;
+}
+
+.wrapper::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+.slider__wrapper {
+    position: relative;
+    margin: 0 auto;
+    max-width: 700px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 9px 3px rgba(19, 27, 34, 0.3);
+}
+
+.slider__wrapper::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.main__title {
+    font-size: 35px;
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: 110px 0 5px 0;
+    z-index: 1;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+
+@media (max-width: 768px) {
+    .slider__wrapper {
+        max-width: 600px;
+    }
+
+    .main__title {
+        padding-top: 145px;
+    }
+}
+
+@media (max-width: 480px) {
+    .slider__wrapper {
+        width: 100%;
+    }
+
+    .main__title {
+        padding-top: 120px;
+    }
+
+    .wrapper {
+        height: 600px;
+    }
+}
