@@ -83,3 +83,8 @@
         margin-bottom: 15px;
     }
 }
+
+.map__container {
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.144);
+}

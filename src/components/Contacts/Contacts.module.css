@@ -1,0 +1,44 @@
+.container__wrapper {
+    padding-top: 61px;
+}
+
+.card {
+    width: 90%;
+    height: 500px;
+    border: 1px solid #00000038;
+    margin: 40px 0;
+    display: flex;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    height: 100%;
+    width: 700px;
+    background-image: url("https://sprosivracha.com/storage/images/clinics/60488/39d4159c9bb6d66d9e41bbc0890c6da8.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card div {
+    margin-bottom: 10px;
+}
+
+.map a {
+    color: #212529;
+}
+
+.mail a {
+    color: #212529;
+}
+
+.info {
+    padding: 5px 10px;
+}
+.name {
+    margin-bottom: 20px;
+}

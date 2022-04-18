@@ -24,7 +24,7 @@ const Price = (props) => {
     }
 
     return (
-        <div className={styles.container}>
+        <div className={styles.container_}>
             <Container>
                 <h1 className={styles.title}>Оказываемые услуги</h1>
                 <div className={styles.tab__list}>

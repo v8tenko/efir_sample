@@ -3,5 +3,6 @@
 
 body {
   margin: 0;
-  background-color: rgb(245, 227, 241) !important;
+  /* background-color: rgb(243, 229, 240) !important; */
+  background-color: #f0f0f0 !important;
 }

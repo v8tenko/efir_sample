@@ -33,3 +33,7 @@ a,
 a:hover {
     color: black;
 }
+
+.container_ {
+    padding-bottom: 60px;
+}
