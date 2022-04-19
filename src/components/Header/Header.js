@@ -14,7 +14,7 @@ function Header() {
         <>
             <Navbar className={style.navbar} variant="dark" fixed="top" expand="md" collapseOnSelect>
                 <Container className={style.container}>
-                    <Link to="/"><Navbar.Brand className={style.logo} href="/">Эфир</Navbar.Brand></Link>
+                    <Link to="/" className={style.logo}><Navbar.Brand className={style.logo} href="/">Эфир</Navbar.Brand></Link>
                     <NavbarToggle area-controls="responsive-navbar-nav" />
                     <NavbarCollapse id="responsive-navbar-nav">
                         <Nav className={style.navbar__items + " me_auto"}>

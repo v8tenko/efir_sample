@@ -1,6 +1,8 @@
 import React from "react";
 import style from "./Footer.module.css";
 import Maps from "../map/map";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 function Footer() {
     return (
@@ -15,15 +17,15 @@ function Footer() {
                 </div>
                 <div className={style.footer__info}>
                     <div className={style.call}>
-                        <div>Звоните</div>
+                        <div>Звоните нам</div>
                         <div className={style.number}>+7 (981) 792-06-37</div>
                     </div>
                     <div className={style.call}>
-                        <div>Звоните</div>
+                        <div>Звоните нам</div>
                         <div className={style.number}>+7 (812) 317-77-95</div>
                     </div>
                     <div className={style.send}>
-                        <div>Пишите</div>
+                        <div>Пишите наш</div>
                         <div className={style.mail}>info@salonefir.ru</div>
                     </div>
                     <div className={style.come}>

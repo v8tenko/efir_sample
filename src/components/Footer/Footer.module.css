@@ -56,6 +56,7 @@
 .come {
     flex-basis: 200px;
     margin: 30px 10px;
+    text-align: center;
 }
 
 .copyrate {
@@ -87,4 +88,9 @@
 .map__container {
     width: 100%;
     border: 1px solid rgba(128, 128, 128, 0.144);
+}
+
+.icon {
+    margin-right: 8px;
+    width: 3px;
 }
