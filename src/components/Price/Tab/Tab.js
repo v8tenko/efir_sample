@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./Tab.module.css";
 
 export const HairService = () => {
@@ -105,9 +104,15 @@ const price = [
 ]
 
 const Tab = (props) => {
+
     return (
         <div>
-            <div className={styles.tab__wrapper} onClick={() => { props.setContent(price[props.id]) }}>{props.name}</div>
+            <div className={`${styles.tab__wrapper} ${props.activeTab === props.id ? styles.activeTab : ""}`}
+                onClick={() => {
+                    props.setContent(price[props.id]);
+                    props.setActiveTab(props.id);
+                }}
+            >{props.name}</div>
         </div>
     )
 }

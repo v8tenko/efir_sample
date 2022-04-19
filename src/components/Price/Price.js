@@ -14,11 +14,12 @@ const Price = (props) => {
 
 
     const [content, setContent] = useState(HairService);
+    const [activeTab, setActiveTab] = useState(0);
 
     const createTabs = (data) => {
         return (
             Object.keys(data).map((elemData, i) => {
-                return <Tab id={i} name={elemData} setContent={setContent} />
+                return <Tab id={i} name={elemData} setContent={setContent} setActiveTab={setActiveTab} activeTab={activeTab} />
             })
         )
     }
