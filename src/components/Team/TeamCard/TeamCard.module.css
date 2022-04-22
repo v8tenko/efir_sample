@@ -4,7 +4,7 @@
     background-size: cover;
     background-position: center;
     border: 1px solid rgba(24, 24, 24, 0.459);
-    filter: grayscale(100%);
+    filter: grayscale(65%);
     transition: 0.2s;
 }
 
@@ -21,6 +21,13 @@
 
 .name {
     margin: 10px 0;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.post {
+    margin-bottom: 0;
+    font-weight: bold;
 }
 
 
