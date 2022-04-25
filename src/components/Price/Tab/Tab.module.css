@@ -3,48 +3,62 @@
     border: 1px solid #f9f9f9;
     border-radius: 30px;
     padding: 10px 20px;
-    border: 1px solid white;
+    border: 1px solid rgba(8, 8, 8, 0.1);
     background-color: white;
     cursor: pointer;
     transition: 0.4;
 }
 
+
+
 .tab__wrapper:hover {
-    background-color: #f9f9f9;
-    border-color: #f9f9f9;
+    background-color: #F0F0F0;
+    border-color: rgba(8, 8, 8, 0.1);
+}
+
+.activeTab {
+    background-color: #F0F0F0;
 }
 
 
-.subtitle {
-    margin-bottom: 7px;
+.content__container {
+    line-height: 1;
+    font-size: 18px;
+}
+
+.sectionName {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.sex {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.service {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.cost {
     font-weight: bold;
 }
 
-.title {
-    font-weight: bold;
+.addInfo {
+    font-size: 14px;
+}
+
+li {
     margin-bottom: 10px;
 }
 
-.elem {
-    display: flex;
-    gap: 30px;
-    margin-bottom: 5px;
-}
-
-.elemName {
-    width: 350px;
-}
-
-.end {
-    margin-bottom: 25px;
-}
-
-.elemCost {
-    font-weight: bold;
-}
-
-
-.activeTab {
-    background-color: #f9f9f9;
-    border-color: #f9f9f9;
+.mt30 {
+    margin-top: 30px;
 }

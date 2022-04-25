@@ -19,7 +19,7 @@ const Price = (props) => {
     const createTabs = (data) => {
         return (
             Object.keys(data).map((elemData, i) => {
-                return <Tab key={i} id={i} name={elemData} setContent={setContent} setActiveTab={setActiveTab} activeTab={activeTab} />
+                return <Tab key={i} id={i} name={elemData} content={content} setContent={setContent} setActiveTab={setActiveTab} activeTab={activeTab} />
             })
         )
     }

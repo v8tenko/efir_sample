@@ -11,9 +11,10 @@
     opacity: 0;
     pointer-events: none;
     transition: 0.2s;
-    z-index: 1000;
+    z-index: 10000;
     overflow-y: scroll;
 }
+
 
 .modal.active {
     opacity: 1;
@@ -26,12 +27,13 @@
 }
 
 .modal__content {
-    padding: 20px;
+    padding: 25px;
     border-radius: 5px;
     background-color: white;
     max-width: 900px;
     transform: translate(0, -1000px);
     transition: 0.4s all;
+    z-index: 10000;
 }
 
 .modal__content.active {
@@ -47,6 +49,10 @@
     line-height: 1;
 }
 
+ul {
+    padding-left: 15px;
+}
+
 li {
     list-style-type: none;
     margin-bottom: 20px;
@@ -59,4 +65,13 @@ li {
     margin-bottom: 2px;
 }
 
-@media (max-width: 703px) {}
+@media (max-width: 480px) {
+    .modal {
+        font-size: 14px;
+        line-height: 1;
+    }
+
+    li {
+        margin-bottom: 15px;
+    }
+}

@@ -26,7 +26,7 @@ function Footer() {
                     </div>
                     <div className={style.send}>
                         <div>Пишите наш</div>
-                        <div className={style.mail}>info@salonefir.ru</div>
+                        <div className={style.mail}>efirad@yandex.ru</div>
                     </div>
                     <div className={style.come}>
                         <div>Приезжайте</div>

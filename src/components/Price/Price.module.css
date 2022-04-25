@@ -29,6 +29,12 @@ body {
     margin-top: 100px;
 }
 
+@media (max-width: 550px) {
+    .content {
+        overflow-x: scroll;
+    }
+}
+
 a,
 a:hover {
     color: black;

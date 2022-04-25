@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Modal.module.css";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
 const Modal = ({ active, setActive, data }) => {
@@ -13,10 +13,8 @@ const Modal = ({ active, setActive, data }) => {
                 <div className={styles.name}>{current.name}</div>
                 <div className={styles.post}>Должность: {current.post}</div>
                 <ul>
-                    <li className={styles.quote}>{current.quote != "undefined" ? current.quote : null}</li>
-                    {current.info.map((info, index) => (
-                        <li key={index}>{info}</li>
-                    ))}
+                    <li className={styles.quote}>{current.quote !== "undefined" ? current.quote : null}</li>
+                    {current.info.map((info, index) => (<li key={index}>{info}</li>))}
                 </ul>
             </div>
         </div>
