@@ -92,10 +92,67 @@ const NailService = () => {
     )
 }
 
+const Massage = () => {
+    return (
+        <div>
+
+        </div>
+    )
+}
+
+const MakeService = () => {
+    return (
+        <div className={styles.content__container}>
+            <div className={styles.sectionName}>Макияж | Брови</div>
+            <table className={styles.tableBody}>
+                <tr>
+                    <td className={styles.tableName}>Дизайн бровей</td>
+                    <td>900 ₽</td>
+                </tr>
+                <tr>
+                    <td className={styles.tableName}>Окрашивание бровей краской</td>
+                    <td>900 ₽</td>
+                </tr>
+                <tr>
+                    <td className={styles.tableName}>Окрашивание бровей хной</td>
+                    <td>1000 ₽</td>
+                </tr>
+                <tr>
+                    <td className={styles.tableName}>Окрашивание ресниц</td>
+                    <td>900 ₽</td>
+                </tr>
+                <tr>
+                    <td className={styles.tableName}>Макияж дневной</td>
+                    <td>2500 ₽</td>
+                </tr>
+                <tr>
+                    <td className={styles.tableName}>Макияж вечерний</td>
+                    <td>3600 ₽</td>
+                </tr>
+                <tr>
+                    <td className={styles.tableName}>Макияж свадебный</td>
+                    <td>5000 ₽</td>
+                </tr>
+                <tr>
+                    <td className={styles.tableName}>Репетиция свадебного макияжа</td>
+                    <td>3000 ₽</td>
+                </tr>
+                <tr>
+                    <td className={styles.tableName}>Репетиция свадебной прически</td>
+                    <td>3000 ₽</td>
+                </tr>
+            </table>
+        </div>
+    )
+}
+
 
 const price = [
     HairService,
     NailService,
+    Massage,
+    MakeService,
+
 ]
 
 const Tab = (props) => {

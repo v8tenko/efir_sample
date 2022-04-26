@@ -29,7 +29,7 @@
 .sectionName {
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
     margin-bottom: 20px;
 }
 
@@ -61,4 +61,20 @@ li {
 
 .mt30 {
     margin-top: 30px;
+}
+
+.tableBody {
+    width: 100%;
+    overflow: hidden;
+}
+
+.tableName {
+    width: 50%;
+    height: 30px;
+}
+
+@media (max-width: 768px) {
+    .tableName {
+        width: 80%;
+    }
 }

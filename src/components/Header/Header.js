@@ -18,7 +18,7 @@ function Header() {
     useEffect(() => {
         if (window.innerWidth > 768) {
             document.addEventListener("scroll", () => {
-                if (window.scrollY > 200) {
+                if (window.scrollY > 50) {
                     setIsScrolled(true)
                 } else {
                     setIsScrolled(false)
