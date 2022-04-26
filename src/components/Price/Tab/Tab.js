@@ -81,9 +81,9 @@ const NailService = () => {
                 <li>Снятие искусственных ногтей — <span className={styles.cost}>700 Р.</span></li>
                 <li>Реставрация ногтей <span className={styles.addInfo}>(за 1 ноготь)</span> — <span className={styles.cost}>400 Р.</span></li>
                 <li>Укрепление/выравнивание ногтей — <span className={styles.cost}>400 Р.</span></li>
-                <li>Дизайн ногтей №1 <span className={styles.addInfo}>(втирки, битое стекло, фольга)(за 1 ноготь)</span> — <span className={styles.cost}>от 50 Р.</span></li>
-                <li>Дизайн ногтей №2 <span className={styles.addInfo}>(градиент)(за 1 ноготь)</span> — <span className={styles.cost}>от 80 Р.</span></li>
-                <li>Дизайн ногтей №3 <span className={styles.addInfo}>(художественная роспись)(за 1 ноготь)</span> — <span className={styles.cost}>от 300 Р.</span></li>
+                <li>Дизайн ногтей №1 <span className={styles.addInfo}>(втирки, битое стекло, фольга) (за 1 ноготь)</span> — <span className={styles.cost}>от 50 Р.</span></li>
+                <li>Дизайн ногтей №2 <span className={styles.addInfo}>(градиент) (за 1 ноготь)</span> — <span className={styles.cost}>от 80 Р.</span></li>
+                <li>Дизайн ногтей №3 <span className={styles.addInfo}>(художественная роспись) (за 1 ноготь)</span> — <span className={styles.cost}>от 300 Р.</span></li>
                 <li>Укрепление ногтей IBX — <span className={styles.cost}>500 Р.</span></li>
                 <li>Инкрустация стразами <span className={styles.addInfo}>(за 1 ноготь)</span> — <span className={styles.cost}>700 Р.</span></li>
                 <li>Дизайн ногтей стразами <span className={styles.addInfo}>(за 1 йод.)</span> — <span className={styles.cost}>50 Р.</span></li>

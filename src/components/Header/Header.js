@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useState, useEffect } from "react";
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
 import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
@@ -9,10 +9,28 @@ import About from "../About/About";
 import Contacts from "../Contacts/Contacts";
 import Price from "../Price/Price";
 import Team from "../Team/Team";
+
+
 function Header() {
+
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+        if (window.innerWidth > 768) {
+            document.addEventListener("scroll", () => {
+                if (window.scrollY > 200) {
+                    setIsScrolled(true)
+                } else {
+                    setIsScrolled(false)
+                }
+            })
+        }
+
+    }, [])
+
     return (
         <>
-            <Navbar className={style.navbar} variant="dark" fixed="top" expand="md" collapseOnSelect>
+            <Navbar className={style.navbar} style={isScrolled ? { height: "50px" } : {}} variant="dark" fixed="top" expand="md" collapseOnSelect>
                 <Container className={style.container}>
                     <Link to="/" className={style.logo}><Navbar.Brand className={style.logo} href="/">Эфир</Navbar.Brand></Link>
                     <NavbarToggle area-controls="responsive-navbar-nav" />

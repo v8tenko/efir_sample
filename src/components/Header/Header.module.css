@@ -3,6 +3,7 @@
 .navbar {
     background-color: rgba(8, 8, 8, 0.86);
     font-family: 'Lora', serif;
+    transition: 0.2s;
 }
 
 .navbar__items {
@@ -32,4 +33,11 @@ a {
 
 .logo {
     color: white !important;
+}
+
+
+@media (min-width: 768px) {
+    .navbar {
+        height: 100px;
+    }
 }
