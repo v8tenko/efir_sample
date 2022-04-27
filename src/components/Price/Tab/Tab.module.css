@@ -6,7 +6,7 @@
     border: 1px solid rgba(8, 8, 8, 0.1);
     background-color: white;
     cursor: pointer;
-    transition: 0.4;
+    transition: background-color 0.2s, border-color 0.2s, transform 0.2s;
 }
 
 
@@ -14,10 +14,12 @@
 .tab__wrapper:hover {
     background-color: #F0F0F0;
     border-color: rgba(8, 8, 8, 0.1);
+    /* transform: translate(0, -3px); */
 }
 
 .activeTab {
     background-color: #F0F0F0;
+    transform: translate(0, -3px);
 }
 
 
