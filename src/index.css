@@ -4,6 +4,7 @@
 body {
   margin: 0;
   /* background-color: rgb(243, 229, 240) !important; */
-  background-color: #f9f9f9 !important;
+  background-color: rgb(252, 252, 252) !important;
   background-image: url("./images/bg.svg");
+
 }
