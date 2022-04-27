@@ -1,0 +1,43 @@
+.about__wrapper {
+    padding-top: 134px;
+    margin-bottom: 60px;
+}
+
+.title {
+    font-size: 54px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+}
+
+.title {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.info {
+    font-size: 18px;
+}
+
+.lastInfo {
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.licenses__wrapper {
+    margin-top: 45px;
+}
+
+.licenses__title {
+    font-size: 46px;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.image {
+    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.27);
+}
