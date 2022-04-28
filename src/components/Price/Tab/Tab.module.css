@@ -72,9 +72,12 @@ li {
     min-width: 300px;
 }
 
+
 .tableName {
+    /* max-width: 400px;
     width: 50%;
-    min-width: 200px;
+    min-width: 200px; */
+    width: 600px;
 }
 
 td {
@@ -84,5 +87,9 @@ td {
 @media (max-width: 768px) {
     .tableName {
         min-width: 300px;
+    }
+
+    .withscroll {
+        overflow-x: scroll;
     }
 }

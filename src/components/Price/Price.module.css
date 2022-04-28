@@ -34,9 +34,9 @@ body {
 }
 
 @media (max-width: 550px) {
-    .content {
+    /* .content {
         overflow-x: scroll;
-    }
+    } */
 }
 
 a,

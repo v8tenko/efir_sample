@@ -15,7 +15,7 @@ function Main() {
             <div className={style.wrapper}>
                 <h1 className={style.main__title}>Наш салон красоты</h1>
                 <div className={style.slider__wrapper}>
-                    <Carousel controls={false} >
+                    <Carousel controls={true} touch={true} >
                         <Carousel.Item>
                             <img
                                 className="d-block w-100"

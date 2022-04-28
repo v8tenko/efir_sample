@@ -14,3 +14,7 @@ body {
   background-image: url("./images/bg.svg");
 
 }
+
+body::-webkit-scrollbar {
+  width: 0px;
+}

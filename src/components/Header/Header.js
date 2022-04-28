@@ -50,6 +50,7 @@ function Header() {
                 <Route path="/contacts" element={<Contacts />} />
                 <Route path="/price" element={<Price />} />
                 <Route path="/team" element={<Team />} />
+                <Route path="*" element={<Main />} />
             </Routes>
         </>
     )
