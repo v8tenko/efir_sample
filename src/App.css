@@ -3,3 +3,7 @@
 body {
     font-family: 'Lora', serif;
 }
+
+.container__wrapper {
+    position: relative;
+}

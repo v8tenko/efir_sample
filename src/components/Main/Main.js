@@ -7,10 +7,11 @@ import img3 from "../../images/slider/3_1.webp";
 import img4 from "../../images/slider/4.webp";
 import img5 from "../../images/slider/5.webp";
 import "./main.css";
+import About from "../About/About"
 
 function Main() {
     return (
-        <div>
+        <div className={style.main__wrapper}>
             <div className={style.wrapper}>
                 <h1 className={style.main__title}>Наш салон красоты</h1>
                 <div className={style.slider__wrapper}>
@@ -53,7 +54,8 @@ function Main() {
                     </Carousel>
                 </div>
             </div>
-        </div >
+            <div className={style.about}><About /></div>
+        </div>
     )
 }
 

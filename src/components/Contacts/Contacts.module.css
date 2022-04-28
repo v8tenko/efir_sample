@@ -4,7 +4,6 @@
 
 .card {
     width: 100%;
-    height: 500px;
     /* border: 1px solid #00000011; */
     margin: 40px 0;
     display: flex;
@@ -12,7 +11,7 @@
     margin-bottom: 60px;
     background-color: white;
     border-radius: 5px;
-    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 10px 3px rgba(34, 60, 80, 0.1);
     padding: 5px;
 }
 
@@ -23,14 +22,15 @@
 }
 
 .image {
-    height: 100%;
     width: 800px;
+    height: 500px;
     background-image: url("https://avatars.mds.yandex.net/get-altay/1627037/2a00000168a81b79ceb664662e07ad57f8c1/XXL");
     background-size: cover;
     background-position: center;
     position: relative;
     z-index: 1;
     border-radius: 5px 0 0 5px;
+    margin-bottom: 0px !important;
 }
 
 .icon {
@@ -38,13 +38,13 @@
     color: rgb(46, 46, 46);
 }
 
-.imageUnder {
+/* .imageUnder {
     position: absolute;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.3);
     z-index: 2;
-}
+} */
 
 .card div {
     margin-bottom: 10px;
@@ -88,4 +88,15 @@ a {
 
 .socialNetwork:hover {
     color: #212529de !important;
+}
+
+
+@media (max-width: 768px) {
+    .card {
+        flex-wrap: wrap;
+    }
+
+    .image {
+        display: none;
+    }
 }
