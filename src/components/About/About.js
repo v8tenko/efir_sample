@@ -1,6 +1,12 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import styles from "./About.module.css";
+import licenses1 from "../../images/licenses/licenses1.png";
+import licensespdf from "../../images/licenses/1.pdf";
+import licenses2 from "../../images/licenses/licenses2.png";
+import licenses2pdf from "../../images/licenses/2.pdf";
+import licenses3 from "../../images/licenses/licenses3.png";
+import licenses3pdf from "../../images/licenses/3.pdf";
 
 const About = () => {
 
@@ -27,9 +33,9 @@ const About = () => {
                 <div className={styles.licenses__wrapper}>
                     <p className={styles.licenses__title}>Наши лицензии</p>
                     <div className={styles.items}>
-                        <a href="../images/licenses/1.pdf" target="_blank"><img className={styles.image} src="../images/licenses/licenses1.png" alt="licenses" width="300px"></img></a>
-                        <a href="../images/licenses/2.pdf" target="_blank"><img className={styles.image} src="../images/licenses/licenses2.png" alt="licenses" width="300px"></img></a>
-                        <a href="../images/licenses/3.pdf" target="_blank"><img className={styles.image} src="../images/licenses/licenses3.png" alt="licenses" width="300px"></img></a>
+                        <a href={licensespdf} target="_blank"><img className={styles.image} src={licenses1} alt="licenses" width="300px"></img></a>
+                        <a href={licenses2pdf} target="_blank"><img className={styles.image} src={licenses2} alt="licenses" width="300px"></img></a>
+                        <a href={licenses3pdf} target="_blank"><img className={styles.image} src={licenses3} alt="licenses" width="300px"></img></a>
                     </div>
                 </div>
             </div>
